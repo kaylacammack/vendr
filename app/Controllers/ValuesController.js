@@ -22,8 +22,8 @@ function _draw() {
 //Public
 export class ValuesController {
   constructor() {
-    appState.on("values", _draw);
-    _draw()
+    // appState.on("values", _draw);
+    // _draw()
   }
 
   addValue() {
